@@ -11,7 +11,7 @@ return array(
 		'icon' => 'calendar-alt',
 		'description' => 'Example block scaffolded with Create Block tool.',
 		'example' => array(
-			
+
 		),
 		'supports' => array(
 			'html' => true

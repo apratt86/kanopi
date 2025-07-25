@@ -1,10 +1,21 @@
 <?php
+/**
+ * The main theme functions file.
+ *
+ * @since   1.0.0
+ * @author  Aaron Pratt <aaron@apdevops.com>
+ * @package Kanopi
+ */
+
+/**
+ * Require the fancy date block entry file.
+ */
 require_once get_template_directory() . '/blocks/fancy-date/fancy-date.php';
 
 /**
  * General Theme Settings.
  *
- * @since v1.0.0
+ * @since 1.0.0
  *
  * @return void
  */
@@ -43,7 +54,7 @@ function kanopi_load_scripts() {
 add_action( 'wp_enqueue_scripts', 'kanopi_load_scripts' );
 
 /**
- * Adds the Google Font Library in the <head> tag.
+ * Adds the Google Font Libraries to the <head> tag.
  *
  * @return void;
  */
