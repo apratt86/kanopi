@@ -1,0 +1,39 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/fancy-date/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+@-webkit-keyframes fancyDate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) scale(0.25) rotate(90deg);
+            transform: translateX(-100%) scale(0.25) rotate(90deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: opacity(1) translateX(0%) scale(1) rotate(0deg);
+            transform: opacity(1) translateX(0%) scale(1) rotate(0deg);
+  }
+}
+@keyframes fancyDate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) scale(0.25) rotate(90deg);
+            transform: translateX(-100%) scale(0.25) rotate(90deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: opacity(1) translateX(0%) scale(1) rotate(0deg);
+            transform: opacity(1) translateX(0%) scale(1) rotate(0deg);
+  }
+}
+.wp-block-kanopi-fancy-date {
+  display: block;
+  width: 100%;
+}
+.wp-block-kanopi-fancy-date p {
+  font-size: 6rem;
+  font-weight: 900;
+  text-align: center;
+  color: #c73e14;
+  -webkit-animation: fancyDate 2s ease-in;
+          animation: fancyDate 2s ease-in;
+}

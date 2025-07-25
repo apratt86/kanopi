@@ -1,0 +1,14 @@
+/*
+Theme Name: Kanopi
+Theme URI: https://github.com/apratt86/kanopi
+Author: Aaron Pratt <aaron@apdevops.com>
+Author URI: https://github.com/apratt86
+Description: Bare Bones FSE theme with one template and one fancy current date block.
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.8
+Requires PHP: 7.2
+Text Domain: kanopi
+*/
+
+/* Don't overwrite this file. Compile "/assets/main.scss" to "/build/main.css" */
