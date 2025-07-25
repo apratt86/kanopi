@@ -190,7 +190,7 @@ class SF_SDK extends Plugin {
 	 */
 	public function get_token( bool $error = false ) {
 
-		// Check if Bearer Token Transient is Set $this->is_transient_set() .
+		// Check if Bearer Token Transient is Set $this->is_transient_set().
 		if ( ! $this->is_transient_set() || $error ) :
 			trigger_error( 'Error or bearer token not set, attempting to update bearer token.', E_USER_NOTICE ); // phpcs:ignore
 			$this->update_transient(); // Refreshes the Bearer Token & Updates Transient Value.
